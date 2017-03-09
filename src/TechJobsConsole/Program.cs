@@ -126,7 +126,6 @@ namespace TechJobsConsole
             }
             else
             {
-                someJobs.Sort();
                 foreach (Dictionary<string, string> jobs in someJobs)
                 {
                     string listing = "";
